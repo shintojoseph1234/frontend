@@ -7,7 +7,8 @@ export default class CustomersService{
 
 
     getCustomers() {
-        const url = `${API_URL}/api/pages/`;
+        // const url = `${API_URL}/api/pages/`;
+        const url = `http://localhost:8000/accounts/facebook/login/`;
         return axios.get(url).then(response => response.data);
     }
     getCustomersByURL(link){

@@ -6,8 +6,16 @@ import  CustomersList from './CustomersList'
 import  CustomerCreateUpdate  from './CustomerCreateUpdate'
 import './App.css';
 
+import Facebook from './components/facebook';
+
 const BaseLayout = () => (
+
+
   <div className="container-fluid">
+
+  <Facebook/>
+
+
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <a className="navbar-brand" href="#">Django React Demo</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
